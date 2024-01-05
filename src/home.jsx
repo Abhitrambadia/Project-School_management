@@ -7,6 +7,8 @@ import image5 from './img/sm.png'
 import image6 from './img/sm7.png'
 import image7 from './img/sm8.png'
 import './App.css'
+import './slider.css'
+import './slider.js'
 import Calendar from './calendar'
 const Home = () => {
     return (
