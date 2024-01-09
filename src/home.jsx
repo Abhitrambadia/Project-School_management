@@ -1,14 +1,14 @@
-import image from './img/sm11.png'
-import image1 from './img/sm2.png'
-import image2 from './img/sm3.png'
-import image3 from './img/sm4.png'
-import image4 from './img/sm5.png'
-import image5 from './img/sm.png'
-import image6 from './img/sm7.png'
-import image7 from './img/sm8.png'
 import './App.css'
 import Calendar from './calendar'
+
+import './slider.css'
+import ImageSlider from './slider.js'
+import { sliderData, sliderData2 } from './sliderdata.js'
 const Home = () => {
+    const image1 = '/img/sm2.png'
+    const image2 = '/img/sm3.png'
+    const image3 = '/img/sm4.png'
+    const image4 = '/img/sm5.png'
     return (
         <div className="App">
             <div className='hero-section'>
@@ -53,20 +53,25 @@ const Home = () => {
                     <p >UPCOMMING EVENTS
                         <div className='midbutt'>  <img src='./assets/images/info_circle.svg'></img>Editor's option </div>
                     </p>
-                    <div className='image-container1'>
+
+                    <ImageSlider slides={sliderData} />
+                    {/* <div className='image-container1'>
                         <img src={image5} alt="schoolimage" className='center-image1'></img>
                         <img src={image6} alt="schoolimage" className='center-image2'></img>
                         <img src={image7} alt="schoolimage" className='center-image2'></img>
-                    </div>
+                    </div> */}
                 </div>
-                <div>
-                    <p className='name'>HAPPENING THIS WEEK</p>
+                <p className='name'>HAPPENING THIS WEEK</p>
+                <div className='editor'>
                     <div className='date'>3rd - 9th of May, 2021</div>
+                    <div className='date'>  <img src='./assets/images/info_circle.svg'></img>Editor's option </div>
+
                 </div>
             </div>
-            <Calendar />
-            
-
+            <div className='slider-section'>
+                <Calendar />
+                <ImageSlider slides={sliderData2} />
+            </div>
         </div>
     )
 }

@@ -19,8 +19,8 @@
 }
 
 /* Meat of the matter */
-html {
-  /* font-size: 62.5%; */
+.html {
+  font-size: 62.5%;
 }
 
 body {
@@ -42,8 +42,10 @@ body {
   font-size: 1.3rem;
   text-align: center;
   border-radius: 8px;
-  padding: 38px;
+  padding: 50px;
   font-size: 16px;
+  margin-block-start: 20px;
+  margin-left: 70px;
 }
 
 .calendar header {
@@ -71,7 +73,7 @@ body {
   flex-basis: 6%;
   font-weight: bold;
   cursor: pointer;
-  transition: background 0.2s;
+  transition:  0.2s;
   height: 100%;
   display: flex;
   justify-content: center;
