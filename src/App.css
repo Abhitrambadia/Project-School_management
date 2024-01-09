@@ -15,7 +15,7 @@ body {
 /* hero section */
 .hero-section {
     padding: 2.5rem 2rem;
-    background-image: url("./img/sm11.png");
+    background-image: url("../public/img/sm11.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,7 @@ body {
       
 }
 .date{
-    color: #4285F4;
+    color: blue;
     font-family: YaleNew;
     font-style: normal;
     font-weight: 400;
@@ -226,3 +226,7 @@ body {
     padding: 20px;
 }
 
+.editor{
+    display: flex;
+    justify-content: space-between;
+}
