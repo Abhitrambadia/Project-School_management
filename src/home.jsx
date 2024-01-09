@@ -1,4 +1,6 @@
 import './App.css'
+import './slider.css'
+import './slider.js'
 import Calendar from './calendar'
 
 import './slider.css'
