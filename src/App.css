@@ -151,7 +151,7 @@ body {
 }
 
 
-.image-container {
+.image-containers {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
@@ -159,14 +159,14 @@ body {
     padding: 20px;
 }
 
-.image-container .center-image1 {
+.image-containers .center-image1 {
     width: 100%;
     max-width: 612.903px;
     object-fit: cover;
     /* max-height: 380px; */
 }
 
-.image-container .center-image2 .image-container {
+.image-containers .center-image2 .image-containers {
     width: 100%;
     max-width: 780px;
     height: 100%;
@@ -230,3 +230,267 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+/* kcjkdsvjbk;f;g;vjfvjfdkjbf;ksfdf */
+/* .image-container{
+    filter: grayscale(100%);
+  }
+  .image-container:hover{
+    transition: all 2s ease-in-out;
+    border-radius: 20px;
+    filter: contrast(200%);
+  } */
+  .main-row {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+  }
+  
+  .card-container {
+    padding: 2rem;
+  }
+  
+  .title1 {
+    
+    font-family: Mallory;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 20px */
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .title {
+    background: linear-gradient(to right,rgb(11, 10, 10)0%,#00356B 100%);
+    background-clip: text;
+    color:transparent ;
+    /* color: #00356B; */
+    font-family: YaleNew;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 30px */
+  }
+  
+  .desc {
+    color: #7B7B7B;
+    font-family: Mallory;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 21px */
+  }
+  
+  .main-container {
+    width: 1442px;
+    height: 476px;
+    flex-shrink: 0;
+    
+    background: linear-gradient(90deg,#00356B,rgb(5, 5, 5),#00356B) #00356B;
+  }
+  
+  .title-container {
+    color: #FFF;
+    font-family: YaleNew;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 100px;
+  }
+  input{
+    background: #001C38;
+    
+    margin-left: 23%;
+    margin-top: 0;
+    width: 600px;
+    height: 64px;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 25px purple, 0 0 25px purple;
+  }
+  ::placeholder{
+    color: #EBEBEB;
+    font-family: Mallory;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 15px */
+  }
+  button{
+    color: #000;
+  font-family: Mallory;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 15px */
+  width: 180px;
+  height: 64px;
+  flex-shrink: 0;
+  box-shadow: 0 0 25px purple, 0 0 25px purple;
+  
+  }
+  button:hover{
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent,#0005);
+    transition: 2s;
+    box-shadow: 0 0 100px purple,
+    0 0 150px purple,0 0 200px purple,
+    0 0 300px purple,0 0 350px purple,;
+  }
+  .input-container{
+    margin: 0;
+    grid-auto-columns: auto auto;
+    /* position: flex; */
+    display: flex;
+  }
+    .main-row {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
+  }
+  
+  .card-container {
+    padding: 2rem;
+  }
+  
+  .title1 {
+    
+    font-family: Mallory;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 20px */
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .title {
+    background: linear-gradient(to right,rgb(11, 10, 10)0%,#00356B 100%);
+    background-clip: text;
+    color:transparent ;
+    /* color: #00356B; */
+    font-family: YaleNew;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 30px */
+  }
+  
+  .desc {
+    color: #7B7B7B;
+    font-family: Mallory;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 21px */
+  }
+  
+  .main-container {
+    /* width: 1442px;
+    height: 476px; */
+    flex-shrink: 0;
+    
+    background: linear-gradient(90deg,#00356B,rgb(5, 5, 5),#00356B) #00356B;
+  }
+  
+  .title-container {
+    color: #FFF;
+    font-family: YaleNew;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  input{
+    background: #001C38;
+    margin-left: 23%;
+    margin-top: 0;
+    width: 600px;
+    height: 64px;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 25px purple, 0 0 25px purple;
+  }
+  input:hover{
+    /* -webkit-box-reflect: below */
+    /* 1px linear-gradient(transparent,#0005); */
+    transition: 2s;
+    box-shadow: 0 0 25px purple,
+    0 0 50px purple,0 0 100px purple,
+    0 0 150px purple,0 0 200px purple;
+  }
+  ::placeholder{
+    color: #EBEBEB;
+    font-family: Mallory;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 15px */
+  }
+  button{
+    color: #000;
+  font-family: Mallory;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 15px */
+  width: 180px;
+  height: 64px;
+  flex-shrink: 0;
+  box-shadow: 0 0 25px purple, 0 0 25px purple;
+  
+  }
+  button:hover{
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent,#0005);
+    transition: 2s;
+    box-shadow: 0 0 100px purple,
+    0 0 150px purple,0 0 200px purple,
+    0 0 300px purple,0 0 350px purple;
+  }
+  .input-container{
+    margin: 0;
+    grid-auto-columns: auto auto;
+    /* position: flex; */
+    display: flex;
+  }
+  .contect{
+    padding-top: 120px;
+}
+  
+a{
+    padding: 8px;
+    padding-left: 100px;
+    justify-content: space-around ;
+    color: #FFF;
+    font-family: YaleNew;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+    text-decoration-line: underline;
+  }
+  a:hover{
+    transition: 2s;
+    box-shadow: 0 0 100px aqua,
+    0 0 150px aqua,0 0 200px aqua,
+    0 0 300px aqua,0 0 350px aqua;
+   /* color: aqua; */
+   transition: all ease-in-out; 
+  }
