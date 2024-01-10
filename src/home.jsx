@@ -1,7 +1,8 @@
-import './App.css'
-import './slider.css'
-import './slider.js'
-import Calendar from './calendar'
+import './App.css';
+import './slider.css';
+import './slider.js';
+import Calendar from './calendar';
+ import  Card from './card';
 
 import './slider.css'
 import ImageSlider from './slider.js'
@@ -43,11 +44,11 @@ const Home = () => {
                 that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students.</p> */}
             <div className='programmes-section'>
                 <p className='name'>PROGRAMMES</p>
-                <div className='image-container'>
+                <div className='image-containers'>
                     <img src={image1} alt="schoolimage" className='center-image1'></img>
                     <img src={image2} alt="schoolimage" className='center-image2'></img>
                 </div>
-                <div className='image-container'>
+                <div className='image-containers'>
                     <img src={image3} alt="schoolimage" className='center-image2'></img>
                     <img src={image4} alt="schoolimage" className='center-image1'></img>
                 </div>
@@ -73,6 +74,26 @@ const Home = () => {
             <div className='slider-section'>
                 <Calendar />
                 <ImageSlider slides={sliderData2} />
+            </div>
+            <div>
+                <Card/>
+            </div>
+            <div className='main-container'>
+                <h1 className='title-container'>Get news from the Yale School of Art in your inbox</h1>
+                <div className='input-container'>
+                    <input type='email' placeholder='Type your email address'/>
+                    <button>subscribe</button>
+
+                 </div>
+                 
+                 <div className='contect'>
+                 <a href="#">Support the School</a>
+                 <a href="#">Visiting</a>
+                 <a href="https://contacts.google.com/">Contect</a>
+                 <a href="https://www.instagram.com/">Instagram</a>
+                 <a href="https://www.facebook.com/">facebook</a>
+                 <a href="https://www.youtube.com/">youtube</a>
+                    </div>
             </div>
         </div>
     )

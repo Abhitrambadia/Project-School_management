@@ -20,11 +20,11 @@ export const sliderData2 = [
     },
     {
         name: "",
-        image: "./img/sm2.png"
+        image: "./img/sm9.png"
     },
     {
         name: "",
-        image: "./img/sm3.png"
+        image: "./img/sm12.png"
     }
 ]
 
